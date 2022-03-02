@@ -341,16 +341,89 @@ footer {
 /* mobile media query */
 @media (max-width: 428px) {
   /* header section */
-  .header-title {
-    width: 75%;
-    margin: 0 auto;
+  .top-page h1 {
+    width: 80%;
+    display: flex;
     text-align: center;
-    font-size: 4rem;
+  }
+
+  .title {
+    font-size: 45px;
+  }
+
+  .links a {
+    font-size: 25px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  }
+
+  .social-media i {
+    margin: 0;
   }
 
   /* menu */
   .menu {
     background-image: none;
+    background-color: white;
+  }
+
+  .title-menu {
+    background-color: white;
+  }
+
+  .title-menu h2 {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 55px;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 15px solid black;
+  }
+
+  .whole-menu {
+    background-color: white;
+  }
+
+  .menu-section h3 {
+    color: black;
+    border: 5px solid black;
+    font-size: 40px;
+  }
+
+  .menu-price h4 {
+    color: black;
+    font-size: 30px;
+  }
+
+  .hint p {
+    color: black;
+    font-size: 20px;
+    border-bottom: 4px solid black;
+  }
+
+  .whole-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .menu-section {
+    width: 50%;
+    text-align: center;
+  }
+
+  .menu-price {
+    display: flex;
+    flex-direction: column;
   }
 
   /* footer section */
@@ -358,5 +431,60 @@ footer {
     height: auto;
     padding-top: 2.5vh;
     font-size: 2rem;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .signup-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sign-up {
+    width: 100%;
+    margin: 0;
+  }
+
+  .join {
+    font-size: 25px;
+  }
+
+  .footer-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .email {
+    width: 90%;
+  }
+
+  .sign {
+    width: 90%;
+    font-size: 18px;
+  }
+
+  .footer-links {
+    width: 100%;
+  }
+
+  .footer-links nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links nav a {
+    font-size: 25px;
+  }
+
+  .copyright {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 13px;
   }
 }
